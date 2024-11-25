@@ -27,14 +27,6 @@ This project is a static web page that presents a computer proforma, including a
 
 - **Web Browser**: Compatible with modern browsers like Chrome, Firefox, Safari, and Edge.
 
-## Deployment
-
-The project can be published on GitHub Pages to share the proforma online. Visit [GitHub Pages](https://pages.github.com/) for more details on how to set up and publish your website.
-
-## Contact
-
-For more information or questions, please contact [your email address].
-
 ---
 
 I hope you enjoy using this computer proforma web page!
@@ -67,14 +59,6 @@ Este proyecto es una página web estática que presenta una proforma de computad
 ## Requisitos
 
 - **Navegador Web**: Compatible con los navegadores más recientes como Chrome, Firefox, Safari y Edge.
-
-## Publicación
-
-El proyecto puede ser publicado en GitHub Pages para compartir la proforma en línea. Visita [GitHub Pages](https://pages.github.com/) para más detalles sobre cómo configurar y publicar tu sitio web.
-
-## Contacto
-
-Para más información o preguntas, por favor contacta a [tu correo electrónico].
 
 ---
 
