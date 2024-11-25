@@ -27,9 +27,6 @@ This project is a static web page that presents a computer proforma, including a
 
 - **Web Browser**: Compatible with modern browsers like Chrome, Firefox, Safari, and Edge.
 
----
-
-I hope you enjoy using this computer proforma web page!
 
 
 ---------------------------------------
@@ -60,7 +57,4 @@ Este proyecto es una página web estática que presenta una proforma de computad
 
 - **Navegador Web**: Compatible con los navegadores más recientes como Chrome, Firefox, Safari y Edge.
 
----
-
-¡Espero que disfruten usando esta página web de proforma de computadora!
 
