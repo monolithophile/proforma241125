@@ -30,17 +30,27 @@ header {
     object-fit: contain; /* Mantiene la proporción de la imagen */
 }
 
-button.pause {
-    background-color: #333; /* Color de fondo del botón */
-    color: #ff6600; /* Color del texto del botón */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centrará los botones horizontalmente */
+    align-items: center; /* Alinea los botones verticalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin: 20px 0; /* Margen superior e inferior */
+    width: 100%; /* Asegura que el contenedor ocupe el ancho completo */
+}
+
+/* Estilos para los botones */
+button {
+    padding: 30px; /* Relleno del botón */
+    font-size: 34px; /* Tamaño de la fuente */
+    background-color: #333; /* Color de fondo */
+    color: #ff6600; /* Color del texto */
     border: none; /* Sin borde */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    padding: 15px; /* Relleno dentro del botón */
-    font-size: 24px; /* Tamaño de fuente del texto del botón */
-    height: 60px; /* Altura del botón */
-    display: flex; /* Uso de flexbox para el diseño */
-    align-items: center; /* Alinea el texto verticalmente al centro */
-    justify-content: center; /* Centra el texto horizontalmente */
+    height: 80px; /* Altura del botón */
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido del botón */
+    justify-content: center; /* Centra el contenido del botón horizontalmente */
 }
 
 .carousel {
@@ -66,23 +76,20 @@ button.pause {
 }
 
 button.prev, button.next {
-    position: absolute; /* Posicionamiento absoluto */
-    top: 50%; /* Centrado vertical */
-    transform: translateY(-50%); /* Ajuste para centrar verticalmente */
     background-color: #333; /* Color de fondo de los botones */
     color: #ff6600; /* Color del texto de los botones */
     border: none; /* Sin borde */
     cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
-    padding: 10px; /* Relleno dentro de los botones */
+    padding: 30px; /* Relleno dentro de los botones */
     font-size: 16px; /* Tamaño de fuente del texto de los botones */
 }
 
 button.prev {
-    left: 10px; /* Posición del botón anterior */
+    margin-right: 10px; /* Espacio entre el botón previo y el botón pause */
 }
 
 button.next {
-    right: 10px; /* Posición del botón siguiente */
+    margin-left: 10px; /* Espacio entre el botón next y el botón pause */
 }
 
 /* Estilos para todas las tablas */
