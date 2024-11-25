@@ -117,3 +117,23 @@ tbody tr.highlight {
     margin: 20px auto; /* Margen superior e inferior, centra horizontalmente */
     padding: 20px; /* Añade espacio alrededor de la tabla */
 }
+
+/* Consultas de medios para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .header, .carousel, .carousel-images, .carousel-images img, .static-image, .top-section {
+        width: 100%; /* Ancho completo para dispositivos móviles */
+        max-width: 100%; /* Máximo ancho del 100% */
+    }
+
+    table {
+        width: 100%; /* Ancho completo para la tabla */
+        display: block; /* Permite el desplazamiento horizontal */
+        overflow-x: auto; /* Habilita el desplazamiento horizontal si es necesario */
+    }
+
+    th, td {
+        width: auto; /* Ancho automático para celdas */
+        display: block; /* Muestra en bloque las celdas */
+        white-space: nowrap; /* Evita el salto de línea automático */
+    }
+}
