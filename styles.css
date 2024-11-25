@@ -1,0 +1,119 @@
+body {
+    font-family: 'Major Mono Display', monospace; /* Fuente del texto */
+    margin: 0; /* Sin margen alrededor del cuerpo */
+    padding: 0; /* Sin relleno alrededor del cuerpo */
+    background-color: #1c1c1c; /* Color de fondo del cuerpo */
+    color: #f4f4f4; /* Color del texto */
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #ff6600; /* Color del texto del encabezado */
+    padding: 1rem; /* Relleno dentro del encabezado */
+    text-align: center; /* Centrar el texto del encabezado */
+}
+
+.top-section {
+    width: 90%;
+    display: flex; /* Uso de flexbox para el diseño */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre elementos */
+    max-width: 1600px; /* Ancho máximo de la sección superior */
+    margin: 20px auto; /* Margen superior e inferior, centra horizontalmente */
+}
+
+.static-image {
+    width: 700px; /* Ancho de la imagen estática */
+    height: auto; /* Altura automática para mantener la proporción */
+    max-width: 100%; /* Ancho máximo del 100% del contenedor */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+}
+
+button.pause {
+    background-color: #333; /* Color de fondo del botón */
+    color: #ff6600; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    padding: 15px; /* Relleno dentro del botón */
+    font-size: 24px; /* Tamaño de fuente del texto del botón */
+    height: 60px; /* Altura del botón */
+    display: flex; /* Uso de flexbox para el diseño */
+    align-items: center; /* Alinea el texto verticalmente al centro */
+    justify-content: center; /* Centra el texto horizontalmente */
+}
+
+.carousel {
+    position: relative; /* Posicionamiento relativo */
+    width: 700px; /* Ancho del carrusel */
+    height: auto; /* Altura automática para mantener la proporción */
+    max-height: 700px; /* Altura máxima del carrusel */
+    overflow: hidden; /* Oculta contenido que se desborda */
+}
+
+.carousel-images {
+    display: flex; /* Uso de flexbox para el diseño */
+    width: 100%; /* Ancho del contenedor de imágenes del carrusel */
+    height: auto; /* Altura automática para mantener la proporción */
+    transition: transform 0.5s ease-in-out; /* Transición suave para el desplazamiento */
+}
+
+.carousel-images img {
+    width: 100%; /* Ancho de las imágenes del carrusel */
+    height: auto; /* Altura automática para mantener la proporción */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+    flex-shrink: 0; /* Evita que las imágenes se encojan */
+}
+
+button.prev, button.next {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centrado vertical */
+    transform: translateY(-50%); /* Ajuste para centrar verticalmente */
+    background-color: #333; /* Color de fondo de los botones */
+    color: #ff6600; /* Color del texto de los botones */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+    padding: 10px; /* Relleno dentro de los botones */
+    font-size: 16px; /* Tamaño de fuente del texto de los botones */
+}
+
+button.prev {
+    left: 10px; /* Posición del botón anterior */
+}
+
+button.next {
+    right: 10px; /* Posición del botón siguiente */
+}
+
+/* Estilos para todas las tablas */
+table {
+    width: 80%; /* Ancho de la tabla */
+    margin: 20px auto; /* Margen superior e inferior, centra horizontalmente */
+    border-collapse: collapse; /* Colapsa los bordes */
+}
+
+th, td {
+    border: 1px solid #444; /* Bordes de las celdas */
+    padding: 10px; /* Relleno dentro de las celdas */
+    text-align: center; /* Centra el texto */
+}
+
+th {
+    background-color: #333; /* Color de fondo de las celdas de encabezado */
+    color: #ff6600; /* Color del texto de las celdas de encabezado */
+}
+
+tbody tr {
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+tbody tr.highlight {
+    background-color: #444; /* Color de fondo de las filas resaltadas */
+}
+
+/* Estilos específicos para la tabla de componentes */
+#componentTable {
+    width: 90%; /* Ajusta el ancho de la tabla */
+    margin: 20px auto; /* Margen superior e inferior, centra horizontalmente */
+    padding: 20px; /* Añade espacio alrededor de la tabla */
+}
