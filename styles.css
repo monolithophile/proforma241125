@@ -124,3 +124,26 @@ tbody tr.highlight {
     margin: 20px auto; /* Margen superior e inferior, centra horizontalmente */
     padding: 20px; /* Añade espacio alrededor de la tabla */
 }
+
+/* Consultas de medios para pantallas más pequeñas */
+@media (max-width: 768px) {
+    table {
+        width: 100%; /* Ancho completo para la tabla */
+        display: block; /* Permite el desplazamiento horizontal */
+        overflow-x: auto; /* Habilita el desplazamiento horizontal si es necesario */
+    }
+
+    th, td {
+        width: auto; /* Ancho automático para celdas */
+        display: block; /* Muestra en bloque las celdas */
+        white-space: nowrap; /* Evita el salto de línea automático */
+    }
+
+    td {
+        font-size: 14px; /* Ajusta el tamaño de fuente para las celdas */
+    }
+
+    th {
+        font-size: 16px; /* Ajusta el tamaño de fuente para las celdas de encabezado */
+    }
+}
